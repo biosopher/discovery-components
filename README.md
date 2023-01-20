@@ -66,7 +66,9 @@ The `runExampleApp.sh` script provides prompts to help configure and run the exa
 
 Run the following command from the project root directory
 
+NOTE: Currently runs with NodeJS v16.13.2 but fails with newer version
 ```
+nvm install 16.13.2 
 ./runExampleApp.sh
 ```
 
